@@ -1,0 +1,75 @@
+.header{
+    width: 95%;
+    height: 700px;
+    display: block;
+    margin: 0 auto;
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.center{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center h1{
+    font-size: 60px;
+}
+.center span{
+    font-size: 30px;
+    text-align: center;
+}
+.button{
+    width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    justify-content: space-between;
+}
+.button button a{
+    text-decoration: none;
+    color: black;
+}
+.button button {
+    padding: 0.1em 0.25em;
+    width: 14.5em;
+    height: 4.2em;
+    background-color: peru;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+.button button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 9.25em;
+    height: 2.5em;
+    background-color: moccasin;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: rgb(36, 35, 35);
+    border: 0.08em solid #fff;
+    box-shadow: 0 0.4em 0.1em 0.019em #fff;
+  }
+  
+.button button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+.button button span:not(hover) {
+    transition: all 1s;
+  }
+  
+  
